@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Voctorina</string>
+    <string name="true_name">Yes,right</string>
+    <string name="false_name">No,not right</string>
+    <string name="next_quest">Next</string>
+    <string name="Restart">Restart game</string>
+
+    <string name="quest_1">Земля круглая?</string>
+    <string name="quest_2">Гагарин первый комсонавт?</string>
+    <string name="quest_3">Правда ли,что операции делаются без наркоза?</string>
+    <string name="quest_4">Правда ли,что некоторые рыбы умеют летать?</string>
+    <string name="quest_5">Самый опасный город в мире находится в Африке?</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backk"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textId"
+        android:layout_width="294dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="423dp"
+        android:fontFamily="@font/allerta"
+        android:textAlignment="center"
+        android:textColor="#200E0E"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/noBtn"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="175dp"
+        android:background="#E80B0B"
+        android:rotationX="20"
+        android:text="@string/false_name" />
+
+    <Button
+        android:id="@+id/yesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="291dp"
+        android:layout_marginBottom="176dp"
+        android:background="#73EC0B"
+        android:rotation="0"
+        android:rotationX="20"
+        android:text="@string/true_name" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="160dp"
+        android:background="#A43BDD"
+        android:rotationY="20"
+        android:text="@string/next_quest"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/Restart"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="332dp"
+        android:background="#EAD9D9"
+        android:text="@string/Restart"
+        android:textAlignment="center"
+        android:textColor="#702C87"
+        android:textColorLink="#B55454"
+        android:visibility="invisible" />
+</RelativeLayout>
